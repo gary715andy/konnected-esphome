@@ -1,6 +1,9 @@
 switch:
   - platform: gpio
-    pin: $output_switch_pin
-    name: $switch_name
-    id: output_switch
-
+    pin: GPIO23
+    name: "Momentary Switch"
+    id: relay
+    icon:"mdi:gate"
+    on_turn_on:
+    - delay: 500ms
+    - switch.turn_off: relay
