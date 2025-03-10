@@ -4,7 +4,6 @@ binary_sensor:
     name: Zone 11   
     pin:
       number: $zone11
-      inverted: false
       mode: INPUT
     platform: gpio   
     filters:
