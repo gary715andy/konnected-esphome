@@ -127,9 +127,9 @@ binary_sensor:
       inverted: true
       mode: INPUT
     platform: gpio   
-    filters:
+  #  filters:
       - delayed_on_off: $sensor_debounce_time
-    on_state:
+  #  on_state:
       - if:
           condition:
             lambda: return id(blink_on_state);
