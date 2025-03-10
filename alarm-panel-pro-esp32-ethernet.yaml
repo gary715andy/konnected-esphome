@@ -84,7 +84,7 @@ substitutions:
 # If you're developing/installing locally, replace the github package line with the local package include above it.
 packages:
 
-  #remote_package:
+  remote_package:
     url: https://github.com/gary715andy/konnected-esphome/alarm-panel-pro-esp32-ethernet.yaml
     ref: master
     refresh: 5min
