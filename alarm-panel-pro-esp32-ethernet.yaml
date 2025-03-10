@@ -39,7 +39,7 @@ substitutions:
   friendly_name: Alarm Panel Pro
   project_name: konnected.alarm-panel-pro-ethernet
   project_version: "1.2.0"
-  #switch_name: "Test Switch:
+  switch_name: "Test Switch:
 
   # ETHERNET CONFIG
   # On the Alarm Panel Pro v1.5, v1.6 and v1.7 use LAN8720. On the v1.8 set this variable to RTL8201.
@@ -69,13 +69,13 @@ substitutions:
   zone12: GPIO35
   alarm1: GPIO12
   alarm2: GPIO5
- # out1: GPIO23
+  out1: GPIO23
   out2: GPIO5
   status_led: GPIO3
   
   ####
   # CONNECTION MAPPINGS
- # output_switch_pin: $out1
+  output_switch_pin: $out1
 
 ####
 # PACKAGES
@@ -117,7 +117,7 @@ packages:
       - packages/alarm-panel/zone8.yaml
       - packages/alarm-panel/zone9.yaml
       - packages/alarm-panel/zone10.yaml
-   #   - packages/alarm-panel/zone11.yaml
+      - packages/alarm-panel/zone11.yaml
       - packages/alarm-panel/zone12.yaml
 
 binary_sensor:
@@ -159,7 +159,7 @@ binary_sensor:
   
 dashboard_import:
   package_import_url: github://gary715andy/konnected-esphome/alarm-panel-pro-esp32-ethernet.yaml@master
-  import_full_config: false
+  import_full_config: true
 
 ####
 # WEB SEVER
