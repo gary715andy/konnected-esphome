@@ -125,7 +125,7 @@ binary_sensor:
     name: Zone 11 
     device_class: power
     pin: GPIO34  
-      mode: input_pullup    
+      mode: input   
       inverted: true
     platform: gpio   
   #  filters:
