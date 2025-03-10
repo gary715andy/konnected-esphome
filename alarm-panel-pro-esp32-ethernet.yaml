@@ -85,7 +85,7 @@ substitutions:
 packages:
 
   remote_package:
-    url: https://github.com/gary715andy/konnected-esphome/alarm-panel-pro-esp32-ethernet.yaml
+    url: https://github.com/gary715andy/konnected-esphome
     ref: master
     refresh: 5min
     files:
