@@ -123,10 +123,9 @@ packages:
 binary_sensor:
   - id: zone11
     name: Zone 11  
-    pin: GPIO34
+    pin: GPIO34  
+      mode: input_pullup    
       inverted: true
-      mode:
-        input: true
     platform: gpio   
   #  filters:
       - delayed_on_off: $sensor_debounce_time
