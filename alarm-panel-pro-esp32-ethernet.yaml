@@ -122,7 +122,8 @@ packages:
 
 binary_sensor:
   - id: zone11
-    name: Zone 11  
+    name: Zone 11 
+    device_class: power
     pin: GPIO34  
       mode: input_pullup    
       inverted: true
