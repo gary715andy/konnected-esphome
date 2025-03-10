@@ -123,8 +123,7 @@ packages:
 binary_sensor:
   - id: zone11
     name: Zone 11  
-    pin:
-      number: $zone11
+    pin: GPIO34
       inverted: true
       mode: INPUT
     platform: gpio   
