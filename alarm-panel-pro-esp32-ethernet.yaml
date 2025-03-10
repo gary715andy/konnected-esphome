@@ -120,6 +120,31 @@ packages:
    #   - packages/alarm-panel/zone11.yaml
       - packages/alarm-panel/zone12.yaml
 
+binary_sensor:
+  - id: zone11
+    name: Zone 11  
+    pin:
+      number: $zone11
+      inverted: true
+      mode: INPUT
+    platform: gpio   
+    filters:
+      - delayed_on_off: $sensor_debounce_time
+    on_state:
+      - if:
+          condition:
+            lambda: return id(blink_on_state);
+          then:
+            - script.execute: blink_status_led
+
+
+
+
+
+
+
+      
+
       ####
       # OUTPUTS
       - packages/alarm-panel/alarm1.yaml
