@@ -125,7 +125,8 @@ binary_sensor:
     name: Zone 11  
     pin: GPIO34
       inverted: true
-      mode: INPUT
+      mode:
+        input: true
     platform: gpio   
   #  filters:
       - delayed_on_off: $sensor_debounce_time
