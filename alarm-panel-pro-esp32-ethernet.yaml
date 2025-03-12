@@ -74,7 +74,7 @@ substitutions:
   
   ####
   # CONNECTION MAPPINGS
-  output_pin: $out1
+  warning_beep_pin: $out1
 
 ####
 # PACKAGES
