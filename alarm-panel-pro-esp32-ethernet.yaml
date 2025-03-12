@@ -68,13 +68,13 @@ substitutions:
   zone12: GPIO35
   alarm1: GPIO12
   alarm2: GPIO5
- # out1: GPIO23
+  out1: GPIO23
   out2: GPIO5
   status_led: GPIO3
   
   ####
   # CONNECTION MAPPINGS
-  #warning_beep_pin: $out1
+  output_pin: $out1
 
 ####
 # PACKAGES
