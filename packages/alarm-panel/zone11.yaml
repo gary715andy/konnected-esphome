@@ -1,11 +1,10 @@
 binary_sensor:
 
-  - id: !extend zone11
+  - id: zone11
     name: Zone 11   
     pin:
       number: $zone11
       mode: INPUT
-      inverted: true
     platform: gpio   
     filters:
       - delayed_on_off: $sensor_debounce_time
