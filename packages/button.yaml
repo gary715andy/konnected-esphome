@@ -4,8 +4,8 @@ switch:
     inverted: yes
     restore_mode: RESTORE_DEFAULT_OFF
     name: "mbutton"
-    id: button
+    id: button2
     icon: "mdi:gate"
     on_turn_on:
     - delay: 500ms
-    - switch.turn_off: button
+    - switch.turn_off: button2
