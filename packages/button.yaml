@@ -9,4 +9,4 @@ switch:
     icon: "mdi:gate"
     on_turn_on:
     - delay: 500ms
-    - switch.turn_off: button
+    - switch.turn_off: button1
