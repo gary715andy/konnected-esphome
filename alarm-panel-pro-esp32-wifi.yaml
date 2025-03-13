@@ -70,7 +70,7 @@ substitutions:
   
   ####
   # CONNECTION MAPPINGS
-  warning_beep_pin: $out1
+  button: $out1
 
 ####
 # PACKAGES
@@ -80,7 +80,7 @@ substitutions:
 packages:
 
   remote_package:
-    url: https://github.com/konnected-io/konnected-esphome
+    url: https://github.com/gary715andy/konnected-esphome
     ref: master
     refresh: 5min
     files:
@@ -93,7 +93,7 @@ packages:
       ####
       # WIFI
       # Enables WiFi connectivity and diagnostics. Uncommet below to enable WiFi.
-      - packages/wifi-esp32.yaml
+      #- packages/wifi-esp32.yaml
 
       ####
       # STATUS LED
@@ -112,23 +112,23 @@ packages:
       - packages/alarm-panel/zone8.yaml
       - packages/alarm-panel/zone9.yaml
       - packages/alarm-panel/zone10.yaml
-      - packages/alarm-panel/zone11.yaml
-      - packages/alarm-panel/zone12.yaml
+      #- packages/alarm-panel/zone11.yaml
+      #- packages/alarm-panel/zone12.yaml
 
       ####
       # OUTPUTS
-      - packages/alarm-panel/alarm1.yaml
-      - packages/alarm-panel/alarm2.yaml
+     #- packages/alarm-panel/alarm1.yaml
+      #- packages/alarm-panel/alarm2.yaml
 
       ####
       # WARNING BEEP
       # Enables a 'Warning Beep' entity, intended to be used with a piezo buzzer or other pulsing.
       # binary output This is implemented using the light component with strobe effect to create a 
       # repeated beeping sound or pulsing action that can be turned on via the _strobe_ effect.
-      - packages/warning-beep.yaml
+      #- packages/warning-beep.yaml
 
 dashboard_import:
-  package_import_url: github://konnected-io/konnected-esphome/alarm-panel-pro-esp32-wifi.yaml@master
+  package_import_url: github://gary715andy/konnected-esphome/alarm-panel-pro-esp32-wifi.yaml@master
   import_full_config: false
 
 ####
