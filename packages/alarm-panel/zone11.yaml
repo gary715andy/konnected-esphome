@@ -1,6 +1,6 @@
 binary_sensor:
 
-  - id: !extend zone11
+  - id: zone11
     name: Zone 11   
     pin:
       number: $zone11
