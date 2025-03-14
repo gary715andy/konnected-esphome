@@ -111,7 +111,7 @@ packages:
       - packages/alarm-panel/zone7.yaml
       - packages/alarm-panel/zone8.yaml
       - packages/alarm-panel/zone9.yaml
-     #- packages/alarm-panel/zone10.yaml
+      - packages/alarm-panel/zone10.yaml
       - packages/alarm-panel/zone11.yaml
       - packages/alarm-panel/zone12.yaml
 
