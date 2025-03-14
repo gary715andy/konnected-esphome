@@ -1,7 +1,7 @@
 binary_sensor:
 
   - id: zone8
-    name: Zone 8    
+    name: Tonys Room  
     pin:
       number: $zone8
       mode: INPUT_PULLUP
