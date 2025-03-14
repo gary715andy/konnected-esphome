@@ -1,7 +1,7 @@
 binary_sensor:
 
   - id: zone5
-    name: Zone 5    
+    name: Sun Room Door  
     pin:
       number: $zone5
       mode: INPUT_PULLUP
