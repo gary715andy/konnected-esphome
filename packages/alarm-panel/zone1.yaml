@@ -1,7 +1,7 @@
 binary_sensor:
 
   - id: zone1
-    name: Zone 1
+    name: Garage Service Door
     pin:
       number: $zone1
       mode: INPUT_PULLUP
