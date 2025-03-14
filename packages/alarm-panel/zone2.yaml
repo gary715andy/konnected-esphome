@@ -1,7 +1,7 @@
 binary_sensor:
 
   - id: zone2
-    name: Zone 2    
+    name: Living Room Motion  
     pin:
       number: $zone2
       mode: INPUT_PULLUP
