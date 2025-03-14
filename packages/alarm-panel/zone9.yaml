@@ -1,9 +1,9 @@
 binary_sensor:
 
-  - id: zone9
-    name: Zone 9    
+  - id: zone10
+    name: Zone 10    
     pin:
-      number: $zone9
+      number: $zone10
       mode: INPUT
     platform: gpio   
     filters:
