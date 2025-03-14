@@ -5,12 +5,12 @@ binary_sensor:
     pin:
       number: $zone1
       mode: INPUT_PULLUP
+    platform: gpio
 color:
   - id: my_black
     red: 100%
     green: 100%
-    blue: 100%  
-    platform: gpio   
+    blue: 100%
     filters:
       - delayed_on_off: $sensor_debounce_time
     on_state:
